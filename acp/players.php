@@ -198,7 +198,7 @@ include("inc/head.php");
 										for (var right in groups[group].rights){
 											if (groups[group].rights[right] == "ban") {
 												document.getElementById("modal_action_ban").removeAttribute("disabled");
-												document.getElementById("modal_action_ban").href  = "players_action.php?action=tempban&steam=" + identifiers_stripped + "&pass=sincislovesincislife";
+												document.getElementById("modal_action_ban").href  = "players_action.php?action=tempbanclient&steam=" + identifiers_stripped + "&pass=sincislovesincislife";
 											}
 										}
 										
