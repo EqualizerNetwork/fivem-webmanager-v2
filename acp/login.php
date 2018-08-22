@@ -1,13 +1,6 @@
 <?php 
 session_start();
-?>
 
-
-<!DOCTYPE html>
-<html>
-
-
-<?php
 if (isset($_GET["logout"])){
 	// Löschen aller Session-Variablen.
 	$_SESSION = array();
@@ -70,7 +63,9 @@ include("inc/config.php");
 	}
 ?>
 
-
+<!DOCTYPE html>
+<html>
+	
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
